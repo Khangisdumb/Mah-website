@@ -1,0 +1,323 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(MinecraftBoldItalic-1y1e.otf);
+}
+
+@font-face {
+    font-family: tf;
+    src: url(SpaceMono-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.box {
+    background-image: url("./V.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    background-attachment: fixed;
+}
+
+.box-overlay {
+    background-color: rgba(255, 144, 0, 0.8);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.box1 {
+    text-align: center;
+    z-index: 2;
+}
+
+.img {
+    border-radius: 70%;
+    width: 200px;
+    height: 200px;
+}
+
+.text {
+    font-style: italic;
+    font-size: 50px;
+    transform: rotate(-5deg);
+    color: white;
+    font-weight: 1000;
+    font-family: Minecraft;
+}
+
+.text2 {
+    font-size: large;
+    color: white;
+    font-family: tf;
+}
+
+.icon {
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+
+.icon2 {
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+.box-contain2 {
+    width: 100%;
+    background-color: white;
+}
+
+.Myself {
+    font-family: tf;
+    font-size: 40px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.in4-1 {
+    width: 100%;
+    display: flex;
+    margin-top: 80px;
+}
+
+.in4-2 {
+    width: 40%
+}
+
+.in4-3 {
+    width: 60%
+}
+
+.info-name1 {
+    width: 136px;
+    padding-left: 70px;
+    font-family: tf;
+}
+
+.info-field {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px
+}
+
+.idk {
+    font-family: tf;
+}
+
+.idk2 {
+    font-family: Minecraft;
+}
+
+.intro1 {
+    Font-size: 30px;
+    font-family: tf;
+}
+
+.intro2 {
+    font-family: tf;
+}
+
+.intro3 {
+    font-family: tf;
+    margin-top: 20px;
+}
+
+.myresume {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ruler {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: #bfbfbf;
+    left: 50%;
+}
+
+.ul {}
+
+.ul li {
+    list-style: none;
+}
+
+.txt3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: tf;
+}
+
+.exp {
+    text-align: center;
+    position: relative;
+
+}
+
+.l {
+    font-size: 17px;
+    font-family: tf;
+    letter-spacing: 7px;
+    background-color: #e6e6e6;
+    display: inline-block;
+    border-radius: 12%;
+}
+
+.box-r {
+    display: flex;
+    margin-top: 20px;
+    
+}
+.flex-right{
+    justify-content: end;
+}
+
+.boxli {
+    width: 50%;
+    font-family: tf;
+    font-size: larger;
+    display: flex;
+    /* justify-content: end; */
+    position: relative;
+    
+    
+}
+
+.li11 {
+    font-family: tf;
+    font-size: medium;
+    color: #e6e6e6;
+}
+
+.l11 {
+    font-size: 16px;
+    
+}
+
+.content-left {
+    padding-right: 20px;
+    /* width: 70%; */
+    text-align: right;
+}
+.content-right {
+    padding-left: 20px;
+    width: 70%;
+    text-align: left;
+}
+
+.ll {
+    font-size: 17px;
+    font-family: tf;
+    margin-top: 30px;
+    letter-spacing: 7px;
+    background-color: #e6e6e6;
+    display: inline-block;
+    border-radius: 12%;
+    font-weight: bold;
+}
+.many-image{
+    width: 40px ;
+    height: 40px;
+    position: absolute;
+    right: -21px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mc-icon-size{
+    width: 40px ;
+    height: 40px;
+    
+}
+.many-images{
+    width: 40px ;
+    height: 40px;
+    position: absolute;
+    left: -19px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.myfav{
+    width: 100%;
+    padding-bottom: 80px;
+    
+    background-color: orange;
+    margin-top: 40px;
+}
+.txt4 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+    font-family: tf;
+    color: black;
+}
+.Fav{
+    width: 100%;
+    text-align: center;    
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.favor{
+    width: 30%;
+    margin-left: 30px;
+    text-align: center;    
+    margin-top: 40px;
+}
+.MC{
+   display: inline-block;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
+.mc-txt{
+    font-family: tf;
+    font-size: x-large;
+    margin-top: 10px;
+}
+.mc-txt2{
+    font-family: tf;
+    font-size: large;
+    margin-top: 10px;
+}
+.my-gallery{
+    background-color: white;
+   
+}
+.img2 { 
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.credit{
+    padding: 30px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.credit2{
+    width: 40%;
+    font-family: tf;
+    font-size: medium;
+}
